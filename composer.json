@@ -1,0 +1,18 @@
+{
+    "name": "aries/gateway",
+    "homepage": "https://github.com/imohammadd/gateway",
+    "description": "A Laravel package for connecting to all Iraninan payment  gateways",
+    "keywords": ["laravel","iran","payment", "gateway", "port", "bank", "pay", "mellat", "saman", "pasargad", "parsian", "sadad", "meli", "payline", "jahanpay", "zarinpal", "iranian-banks", "persian-banks", "pardakht","dargah","shaparak","poolport","ipay"],
+    "license": "MIT",
+    "require": {
+        "nesbot/carbon": "~1.20",
+        "aries/laravelsetting": "*"
+    },    
+    "autoload": {
+        "psr-4": {
+            "Larabookir\\Gateway\\": "src/",
+            "Larabookir\\Gateway\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
