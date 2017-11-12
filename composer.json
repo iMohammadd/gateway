@@ -10,8 +10,7 @@
     },    
     "autoload": {
         "psr-4": {
-            "Larabookir\\Gateway\\": "src/",
-            "Larabookir\\Gateway\\Tests\\": "tests/"
+            "Aries\\Gateway\\": "src/"
         }
     },
     "minimum-stability": "dev"
